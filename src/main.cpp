@@ -62,7 +62,7 @@ int main(int argc , char **argv)
 		ROS_ERROR("Can't open the serial port");
 		return -1;
 	}
-	ros::Publisher lidar_pub = nh.advertise<sensor_msgs::LaserScan>("LiDAR/LD06", 1); /*create a ROS topic */
+	ros::Publisher lidar_pub = nh.advertise<sensor_msgs::LaserScan>("scan", 1); /*create a ROS topic */
 	
 	while (ros::ok())
 	{
