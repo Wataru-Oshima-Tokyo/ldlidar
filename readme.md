@@ -10,6 +10,7 @@
 
 	KERNEL=="ttyUSBnnn", MODE="0666"
 
+And enable serial port Remote_gpio (disable serial console)
 # LD06 Lidar ROS driver
 
 This is an attempt to fix and improve the driver provided by LDRobots in their
